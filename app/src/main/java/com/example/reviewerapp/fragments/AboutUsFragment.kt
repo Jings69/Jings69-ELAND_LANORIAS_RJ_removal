@@ -7,7 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.reviewerapp.R
 
-class LessonsFragment : Fragment() {
+class AboutUsFragment : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -17,6 +17,7 @@ class LessonsFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.fragment_lessons, container, false)
+        return inflater.inflate(R.layout.fragment_about_us, container, false)
     }
+
 }
